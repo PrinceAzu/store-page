@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/css/main.css">
+    <title>Vendira</title>
+    <link
+        rel="shortcut icon"
+        href="Assets/img/icons8-bbb-50-bg.png"
+        type="image/x-icon"
+      />
+</head>
+<body>
+    <main class="overflow-hidden">
+        <!-- Navigation -->
+        
+        <div class="nav-open">
+            <i class="fa-solid fa-bars-staggered"></i>
+        </div>
+        <div class="brand">
+            <p>Vendira</p>
+        </div>
+
+        <!-- Cart Icon -->
+        <div class="cart-icon" id="cart-icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <!-- Cart -->
+        <div class="cart">
+            <div class="cart-content">
+                <div class="cart-item">
+                    <img src="Assets/imgs/xman-1.jpg.webp" alt="" class="cart-img" >
+                    <div class="cart-details">
+                        <div class="product-title">Camp Bag</div>
+                        <div class="cart-price">$35</div>
+                        <input type="number" value="1" name="" class="cart-quantity">
+                    </div>
+                    <i class="fa-solid fa-circle-minus cart-remove"></i>
+                </div>
+            </div>
+            <div class="total">
+                <div class="total-title">Total:</div>
+                <div class="total-price">$0</div>
+            </div>
+            <button type="button" class="btn btnx view-btn">View Cart</button>
+            <button type="button" class="btn btnx checkout-btn">Check Out</button>
+            <i class="fa-solid fa-xmark close-cart" id="close-cart"></i>
+        </div>
+
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="nav-close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="menu-brand">
+                <p>Vendira</p>
+            </div>
+            <ul class="mainMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#women">Women's</a></li>
+                <li><a href="#men">Men's</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+
+        <!-- Hero -->
+        <header>
+            <section class="hero owl-carousel owl-theme">
+                <div class="slide slide-1">
+                    <div class="slide-content">
+                        <p class="p">Check out our</p>
+                        <h1>New <br> Collection</h1>
+                        <div class="socials">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-pinterest-p"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <button type="button" class="btn btnx">Shop Now</button>
+                    </div>
+                </div>
+                <div class="slide slide-2">
+                    <div class="slide-content">
+                        <h1 class="mb3">Men's <br> Collection</h1>
+                        <button type="button" class="btn btnx">Shop Now</button>
+                    </div>
+                </div> 
+                <div class="slide slide-3">
+                    <div class="slide-content">
+                        <h1 class="mb3">Women's <br> Collection</h1>
+                        <button type="button" class="btn btnx">Shop Now</button>
+                    </div>
+                </div>
+            </section>
+            
+        </header>
+
+        <!-- Featured -->
+        <section class="featured content-wrap">
+            <div class="featured-category">
+                <div class="fcate-content fcate-1" data-aos="fade-up" data-aos-duration="1500">
+                    <p>Men's</p>
+                </div>
+                <div class="fcate-content fcate-2" data-aos="fade-up" data-aos-duration="2000">
+                    <p>Women's</p>
+                </div>
+                <div class="fcate-content fcate-3" data-aos="fade-up" data-aos-duration="2500">
+                    <p>Accesories</p>
+                </div>
+            </div>
+
+            <div class="featured-products pd">
+                <h2 class="title">Featured Products</h2>
+                <div class="featured-content product-grid">
+                    <!-- Product 1 -->
+                    <div class="product-item">
+                        <img src="Assets/imgs/xman-1.jpg.webp" alt="">
+                        <p>Camp Bag</p>
+                        <p>$35</p>
+                        <i class="fa-solid fa-cart-plus add-cart"></i>
+                    </div>
+                    <!-- Product 1 -->
+                    <div class="product-item">
+                        <img src="Assets/imgs/xman-3.jpg.webp" alt="">
+                        <p>Slim Jacket</p>
+                        <p>$50</p>
+                        <i class="fa-solid fa-cart-plus add-cart"></i>
+                    </div>
+                    <!-- Product 3 -->
+                    <div class="product-item"> 
+                        <img src="Assets/imgs/xwomen-4.jpg.pages.jpg" alt="">
+                        <p>Bead sturded Purse</p>
+                        <p>$35</p>
+                        <i class="fa-solid fa-cart-plus add-cart"></i> 
+                    </div>
+                    <!-- Product 4 -->
+                    <div class="product-item">
+                        <img src="Assets/imgs/xproduct-4.jpg.webp" alt="">
+                        <p>Wool Shawl</p>
+                        <p>$25</p>
+                        <i class="fa-solid fa-cart-plus add-cart"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sale -->
+        <section class="sale sec">
+            <div class="sale-content content-wrap">
+                <p>Mid Season's Sale</p>
+                <h3>Autumn Collection <br> up to 20% off</h3>
+                <button class="btn btnx">Shop Now</button>
+            </div>
+        </section>
+
+        <!-- Trending -->
+        <section class="content-wrap">
+            <div class="trending pd">
+                <h2 class="title">Trending products</h2>
+                <div class="trending-content product-grid">
+                    <div class="product-item">
+                        <img src="Assets/imgs/product5.webp" alt="product" srcset="">
+                        <p>Checkered Top</p>
+                        <p>$40</p>
+                        <i class="fa-solid fa-cart-plus add-cart"></i>
+                    </div>
+                    <div class="product-item">
+                        <img src="Assets/imgs/product3.webp" alt="product" srcset="">
+                        <p>Leather Shoe</p>
+                        <p>$35</p>
+                        <i class="fa-solid fa-cart-plus add-cart"></i>
+                    </div>
+                    <div class="product-item">
+                        <img src="Assets/imgs/product2.webp" alt="product" srcset="">
+                        <p>Grey Hoodie</p>
+                        <p>$30</p>
+                        <i class="fa-solid fa-cart-plus add-cart"></i>
+                    </div>
+                    <div class="product-item">
+                        <img src="Assets/imgs/product4.webp" alt="product" srcset="">
+                        <p>Leather Watch</p>
+                        <p>$100</p>
+                        <i class="fa-solid fa-cart-plus add-cart"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Instagram -->
+        <section>
+            <div class="instagram">
+                <!-- insta1 -->
+                <div class="insta" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="Assets/imgs/insta1.webp" alt="instagram" class="image">
+                    <div class="overlay">
+                        <div class="overlay-items">
+                            <i class="fa-brands fa-instagram"></i>
+                            <p>store_vendira</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- insta2 -->
+                <div class="insta" data-aos="fade-left" data-aos-duration="1500">
+                    <img src="Assets/imgs/insta2.webp" alt="instagram" class="image">
+                    <div class="overlay">
+                        <div class="overlay-items">
+                            <i class="fa-brands fa-instagram"></i>
+                            <p>store_vendira</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- insta3 -->
+                <div class="insta" data-aos="fade-left" data-aos-duration="2000">
+                    <img src="Assets/imgs/insta3.webp" alt="instagram" class="image">
+                    <div class="overlay">
+                        <div class="overlay-items">
+                            <i class="fa-brands fa-instagram"></i>
+                            <p>store_vendira</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- insta4 -->
+                <div class="insta" data-aos="fade-left" data-aos-duration="2500">
+                    <img src="Assets/imgs/insta4.webp" alt="instagram" class="image">
+                    <div class="overlay">
+                        <div class="overlay-items">
+                            <i class="fa-brands fa-instagram"></i>
+                            <p>store_vendira</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- insta5 -->
+                <div class="insta" data-aos="fade-left" data-aos-duration="3000">
+                    <img src="Assets/imgs/insta5.webp" alt="instagram" class="image">
+                    <div class="overlay">
+                        <div class="overlay-items">
+                            <i class="fa-brands fa-instagram"></i>
+                            <p>store_vendira</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer-content content-wrap">
+                <div class="footer-brand">
+                    <div class="menu-brand">
+                        <p>Vendira</p>
+                    </div>
+                    <p>Address: 60-49 Road 11378 New York</p>
+                    <p>Phone: +65 11.188.888</p>
+                    <p>Email: hello.vedira@gmail.com</p>
+                </div>
+
+                <div class="information">
+                    <p class="f-title">Information</p>
+                    <ul class="info-list">
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Checkout</li>
+                        <li>Services</li>
+                    </ul>
+                </div>
+
+                <div class="account">
+                    <p class="f-title">Account</p>
+                    <ul class="acct-list">
+                        <li>My Account</li>
+                        <li>Shop</li>
+                        <li>Cart</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+
+                <div class="newsletter">
+                    <p class="f-title">Join Our Newsletter Now</p>
+                    <p>Get E-mail updates about our latest shop and special offers.</p>
+                    <form action="">
+                        <input type="text" placeholder="Enter your Email" name="email">
+                        <button class="sub">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-end">
+                <div class="cpoywrite content-wrap">
+                    <p>Copyright ©2022 All rights reserved | Designed by ShrewdTech</p>
+                    <div class="payment">
+                        <img src="Assets/imgs/xpayment-method.png.webp" alt="payment">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="Assets/js/smooth-scroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="Assets/js/app.js"></script>
+</body>
+</html>
